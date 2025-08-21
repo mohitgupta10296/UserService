@@ -1,0 +1,15 @@
+
+spring:
+  application:
+    name: UserServiceApplication
+  data:
+    mongodb:
+      uri: mongodb+srv://mohitgeu96:A12345bc%40@cluster0.2zk08hy.mongodb.net/userdb?retryWrites=true&w=majority&appName=Cluster0
+      database: User
+server:
+  port: 8082
+
+logging:
+  level:
+    root: info
+    com.project: DEBUG
